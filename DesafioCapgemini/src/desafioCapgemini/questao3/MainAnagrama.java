@@ -2,6 +2,7 @@ package desafioCapgemini.questao3;
 
 import java.util.Scanner;
 
+
 public class MainAnagrama {
 
 	public static void main(String[] args) {
@@ -12,8 +13,10 @@ public class MainAnagrama {
 
 		StringUtils c = new StringUtils();
 
-		c.compararSubstring(c.geradorNSubstring(str));
+		System.out.println(c.compararSubstring(c.geradorNSubstring(str)));
 		sc.close();
+		
+	
 
 	}
 }

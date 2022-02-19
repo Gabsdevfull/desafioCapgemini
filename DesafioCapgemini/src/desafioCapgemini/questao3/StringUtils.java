@@ -18,8 +18,9 @@ public class StringUtils {
 		return listaDesubstring;
 	}
 
-	public void compararSubstring(List<List<String>> listaDesubstring) {
-
+	public int compararSubstring(List<List<String>> listaDesubstring) {
+		
+		int quantosSaoAnagrama = 0;
 		List<String> listaAnagramasRepetidoEmOrdem = new ArrayList<>();
 		for (int i = 0; i < listaDesubstring.size(); i++) {
 			for (int j = 0; j < listaDesubstring.get(i).size(); j++) {
@@ -31,10 +32,10 @@ public class StringUtils {
 			}
 		}
 
-		contarAnagramasRepetidos(listaAnagramasRepetidoEmOrdem);
+		return contarAnagramasRepetidos(listaAnagramasRepetidoEmOrdem);
 	}
 
-	public void contarAnagramasRepetidos(List<String> listaAnagramasRepetido) {
+	public int contarAnagramasRepetidos(List<String> listaAnagramasRepetido) {
 
 		int contador = 0;
 
@@ -50,6 +51,6 @@ public class StringUtils {
 			}
 			i++;
 		}
-		System.out.println(contador);
+		return contador;
 	}
 }
