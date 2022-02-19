@@ -95,7 +95,7 @@ A lista de todos os anagramas pares são: [o, o], [ov, vo] que estão nas posiç
 
 ## Autor
 
-<img src="https://avatars.githubusercontent.com/u/95191321?s=400&u=86f380e5b77b49e94cd6cab2559647710e1a208a&v=4" width="100px;" alt=""/>
+<img src="https://avatars.githubusercontent.com/u/95191321?s=400&u=f7beb766853370cc67cdd43c0030779763834bf0&v=4" width="100px;" alt=""/>
 <p>Gabriel Pereira Varandas</p>
 
 Desenvolvedor Java Jr 💻, Bacharel em Aministração de Empresas (USJT) Buscando a primeira oportunidade no mercado de Tecnologia como Dev 👨🏻‍💻. Entre em contato!
