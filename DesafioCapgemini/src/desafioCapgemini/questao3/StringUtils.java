@@ -5,6 +5,14 @@ import java.util.Arrays;
 import java.util.List;
 
 public class StringUtils {
+	
+	/*
+	 * @brief gera uma lista de substring
+	 * 
+	 * @param recebe uma palavra para gera as substring
+	 * 
+	 * @returt List<List<String>> com as varios substring
+	 */
 
 	public List<List<String>> geradorNSubstring(String palavra) {
 
@@ -17,6 +25,14 @@ public class StringUtils {
 		}
 		return listaDesubstring;
 	}
+	
+	/*
+	 * @brief compara uma lista de substring
+	 * 
+	 * @param recebec uma lista de substring
+	 * 
+	 * @return o numero de string repetidas
+	 */
 
 	public int compararSubstring(List<List<String>> listaDesubstring) {
 		
@@ -34,6 +50,16 @@ public class StringUtils {
 
 		return contarAnagramasRepetidos(listaAnagramasRepetidoEmOrdem);
 	}
+	
+	/*
+	 * @brief lista de anagramas repetidos e retonar o numero de repeticoes
+	 * 
+	 * @param recebe a lista de anagramas repetidos
+	 * 
+	 * @return int retorna o numero de repeticoes
+	 * 
+	 * @
+	 */
 
 	public int contarAnagramasRepetidos(List<String> listaAnagramasRepetido) {
 

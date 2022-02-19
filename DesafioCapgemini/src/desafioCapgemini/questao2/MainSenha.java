@@ -2,6 +2,10 @@ package desafioCapgemini.questao2;
 
 import java.util.Scanner;
 
+/*
+ * @brief Executa o verificador de senha
+ * */
+
 public class MainSenha {
 
 	public static void main(String[] args) {

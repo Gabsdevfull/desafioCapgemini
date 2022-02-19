@@ -1,12 +1,29 @@
 package desafioCapgemini.questao2;
 
 public class VerificaSenha {
+	
+	/*
+	 * @brief verifica quantos caracteres esta faltando
+	 * 
+	 * @param recebe a senha a ser contada
+	 * 
+	 * @return in numero de cacteres faltantes
+	 */
 
 	public int FaltaNCaracter(String senha) {
 		if (senha.length() <= 6)
 			return 6 - senha.length();
 		return 0;
 	}
+	
+	/*
+	 * @brief verifica se não preencheu algum requisito
+	 * 
+	 * @param recebe a senha a ser verificada
+	 * 
+	 * @return retona o numero de requisitos caractes que faltam para preencher os
+	 * resquisitos
+	 */
 
 	public int verificaSenha(String senha) {
 		char senhaChar[] = senha.toCharArray();
