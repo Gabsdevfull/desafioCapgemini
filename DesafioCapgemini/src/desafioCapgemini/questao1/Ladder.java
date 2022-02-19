@@ -27,7 +27,7 @@ public class Ladder {
 	 * 
 	 * @parm param recebe o numero de asteristicos e espacos que vao ser impressos
 	 * 
-	 * @return int retona o numero de caracteres impressos
+	 * @return int retorna o numero de caracteres impressos
 	 */
 	
 	public int caracteresImpressos(int n) {
